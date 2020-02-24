@@ -1,0 +1,79 @@
+.carousel-item{
+        background-color: #caa4a0;
+}
+.see-all:hover{
+    color: orange;
+    font-size: medium;
+}
+.container{
+    margin-bottom:100px ;
+}
+.buy-now-button {
+    background-color:black;
+    color: #fff;
+    border: none;
+    border-radius: 8%;
+    padding: 10px 27px;
+    cursor: pointer;
+}
+.row small{
+    color:orange;
+} .card h5{
+    text-align: center;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}.underline{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.underline h1
+    {
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        color: #1f1f1f;
+        font-weight: 600;
+      }
+      .underline h1:after{
+          content: "";
+          position: absolute;
+          bottom: -12px;
+          left: 50%;
+          margin-left: -50px;
+          background: #ff9c35;
+          width: 100%;
+          border-radius: 5px;
+      }
+      #subscribe{
+        height: 300px;}
+    #subscribe h6{
+        color:gray;
+    }
+    .f-name-color{
+        color:aqua;
+    }
+    footer{
+        text-align: center;
+    }
+    .col-3{
+        padding:3px 3px;
+    }  
+    .bg-color{
+        background-color: #fceae8;
+    }
+    .card{
+        box-shadow: 1px 1px 8px;
+        transition: 0.5s ease-in-out;
+    }
+    .card:hover{
+        transform: translateY(20px);
+        transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    }
+    .try{
+        padding: 5px 2px;
+        box-shadow: 1px 1px 5px;
+    }
